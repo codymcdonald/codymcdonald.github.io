@@ -1,2 +1,2 @@
 # website
-Website for displaying projects, upcoming events, and outreach
+Personal webpage for projects 

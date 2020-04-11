@@ -70,7 +70,7 @@
         background-size: cover;
         padding-top:100px;
         padding-bottom:100px;">
-        <h7>Electronics (Under Construction)</h7>
+        <h7>Electronics</h7>
       </div>
     </div>
   </section>
@@ -109,7 +109,23 @@
           <div class="resume-content">
             <h3 class="mb-0">Op-Amp</h3>
             <div class="subheading mb-3">Analog Circuit Design (EE420) Project</div>
-            <div> An op-amp is a fundamental device used in circuit theory and electronics in general. The design specifications of this project required that the op-amp provide an open-loop gain of at least 66dB's under various load and VDD's <a href = "../pdf/op_amp.pdf"> here</a>. </div>
+            <div> An op-amp is a fundamental device used in circuit theory and electronics in general. The design specifications of this project required that the op-amp provide the following attributes:
+              <ul style="list-style-type:disc;">
+                <li>An open-loop gain of at least 66dB's under various load and VDD's.</li>
+                <li>A Gain-bandwidth product larger than 1
+                  MHz.</li>
+                <li>A common mode rejection ratio (CMRR)
+                  greater than 90 dB at 100 kHz.</li>
+                <li>A power supply rejection ration greater than
+                  90 dB at 100 kHz.</li>
+                <li>A slew-rate with maximum load greater than
+                  1V/microsecond.</li>
+              </ul>
+              <figure>
+                <img src="../img/op_amp/op_amp_schematic.png" alt="schematic" style="width:100%">
+                <figcaption>Fig.1 - Full  Op-Amp schematic designed and simulated in LTSpice.</figcaption>
+              </figure>
+              For a comprehensive design report please view the following link <a href = "../pdf/op_amp.pdf"> here</a>. </div>
           </div>
         </div>
 

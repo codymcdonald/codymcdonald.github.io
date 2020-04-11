@@ -141,6 +141,14 @@ p.lead {
   }
 }
 
+.image-holder {
+  background-size: cover;
+  background-position: center center;
+  height: 400px;
+  width: 100%;
+}
+
+
 /* was 5rem */
 section.resume-section {
   padding-top: 3rem !important;  /* was 5rem */

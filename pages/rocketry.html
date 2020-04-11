@@ -94,7 +94,7 @@
               <figcaption>Fig.2 - Engineering drawing.</figcaption>
             </figure>
             <div>I worked primarily on the avionics, recovery and payload components of the rocket. Full recovery of our rocket required the use of two separate systems for both the rocket itself and its payload. The body recovery system contains a Missile Works RTx/GPS Telematics tracking system, and a PerfectFlite StratologgerCF altimeter. The RRC3 will serve as the main altimeter and the StratologgerCF
-will serve as the redundant altimeter. The components were adhered to a custom built avionics sled and placed into the body of the rocket in the following figure: </div>
+will serve as the redundant altimeter. The components were adhered to a custom built avionics sled and placed into the body of the rocket in the following figures: </div>
                 <figure>
                   <img src=../img/rocketry/avionics_bay_1.png alt="Bay 1" style="width:100%">
                 </figure>
@@ -104,6 +104,20 @@ will serve as the redundant altimeter. The components were adhered to a custom b
             <div>The telemetry data is received by a groud station that contains the paired RTx Telematics receiver. The GPS coordinates are displayed on an LCD screen. </div>
                 <figure>
                   <img src=../img/rocketry/ground-station.png alt="Ground Station" style="width:100%">
+                </figure>
+            <div>The other component I worked on was the payload. For our chosen payload we decided to design an inflatable habitat to demonstrate a possible substrate that astronauts could live in and conduct their mission. The habitat is contained in a 3d-printed cubesat form. The inflatable portion of the habitat was fabricated using two plastic liners fused in a donut shape with a laser cutter.</div>
+                <figure>
+                  <img src=../img/rocketry/payload.png alt="payload" style="width:100%">
+                  <figcaption>Fig.3 - Payload </figcaption>
+                </figure>
+            <div>The payload's systems are actuated using an Arduino Nano microcontroller that is programmed to take in altitude readings to detect when the payload has landed safely on the ground. Once the condition has been met the Arudino will power a servo motor to turn a solenoid valve that allows compressed CO2 air to fill the habitat. The payload is also equiped with a separate GPS module that transmits using a LoRa transmitter for recovery.</div>
+                <figure>
+                  <img src=../img/rocketry/payload_electronics.png alt="payload electronics" style="width:100%">
+                  <figcaption>Fig.4 - Payload electronics </figcaption>
+                </figure>
+                <figure>
+                  <img src=../img/rocketry/payload_electronics_output.png alt="payload electroncis plus output" style="width:100%">
+                  <figcaption>Fig.5 - Payload electronics alternate view and serial monitor output.</figcaption>
                 </figure>
           </div>
         </div>
